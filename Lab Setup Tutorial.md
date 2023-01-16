@@ -23,13 +23,13 @@ Your mouse should be on the last password field, too.
 ## Step 3 - Remotely Connecting
 * Open the terminal in your VS Code
 * Press the "+" button on the right side, and select bash. It should look like below.
+
 ![image](https://user-images.githubusercontent.com/110661816/212162986-8234a978-ee99-4363-9f64-4723a28d9393.png)
 * Then, type the command `ssh cs15lwi23zz@ieng6.ucsd.edu`. **Attention: you need to replace cs15lwi23zz with your own account**, which can be found when you finish the first step.
 
 ![image](https://user-images.githubusercontent.com/110661816/212163458-ef1292b7-58c5-4d9c-ba3b-29830f2d0e24.png)
 * You probably will see this message after pressing enter in the last step:
 ```
-# code block
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.     
 This key is not known by any other names
@@ -37,7 +37,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 It is very common when you try to login a new server. You can simply type yes and press enter. If you see the following messages, you successfully connect to the CSE basement server.
 ```
-# code block
 Last login: Thu Jun  2 13:55:30 2022 from 128.54.207.113
 Attempting to create directory /home/linux/ieng6/cs15lwi23/cs15lwi23agg/perl5
 ============================ NOTICE =================================
