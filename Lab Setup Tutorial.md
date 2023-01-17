@@ -29,13 +29,14 @@ Your mouse should be on the last password field, too.
 
 ![image](https://user-images.githubusercontent.com/110661816/212163458-ef1292b7-58c5-4d9c-ba3b-29830f2d0e24.png)
 * You probably will see this message after pressing enter in the last step:
+
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.     
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
 ```
+
 It is very common when you try to login a new server. You can simply type yes and press enter. If you see the following messages, you successfully connect to the CSE basement server.
 
 ```
