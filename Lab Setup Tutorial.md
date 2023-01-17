@@ -34,8 +34,10 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.     
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
 ```
 It is very common when you try to login a new server. You can simply type yes and press enter. If you see the following messages, you successfully connect to the CSE basement server.
+
 ```
 Last login: Thu Jun  2 13:55:30 2022 from 128.54.207.113
 Attempting to create directory /home/linux/ieng6/cs15lwi23/cs15lwi23agg/perl5
