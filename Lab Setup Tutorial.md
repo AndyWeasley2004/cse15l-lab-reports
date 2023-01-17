@@ -31,6 +31,7 @@ Your mouse should be on the last password field, too.
 * You probably will see this message after pressing enter in the last step:
 
 ```
+#code block
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.     
 This key is not known by any other names
@@ -40,9 +41,10 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 It is very common when you try to login a new server. You can simply type yes and press enter. If you see the following messages, you successfully connect to the CSE basement server.
 
 ```
+#code block
 Last login: Thu Jun  2 13:55:30 2022 from 128.54.207.113
 Attempting to create directory /home/linux/ieng6/cs15lwi23/cs15lwi23agg/perl5
-============================ NOTICE =================================
+                             NOTICE 
 Authorized use of this system is limited to password-authenticated
 usernames which are issued to individuals and are for the sole use of
 the person to whom they are issued.
@@ -51,7 +53,6 @@ Privacy notice: be aware that computer files, electronic mail and
 accounts are not private in an absolute sense.  You are responsible
 for adhering to the ETS Acceptable Use Policies, which you can review at:
 https://blink.ucsd.edu/faculty/instruction/tech-guide/policies/ets-acceptable-use-policies.html
-=====================================================================
 
  Problems, Suggestions, or Feedback
 
