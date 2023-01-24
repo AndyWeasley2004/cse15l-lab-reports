@@ -87,15 +87,20 @@ Thu Jan 12, 2023 10:29am - Prepping cs15lwi23
 You can try the following starter command and watch the output
 * cd ~
 * pwd
+* ls
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/README.instructor
 
-These are basic commands you need to know. Among them, cd can help you change the directory you are working on. pwd command can show the current working directory on your commputer. cp can copy the file or directory you typed. And cat can concat the file content and print them in the command line. If you type one file directory, it will print it directly as you can see in the result of the last command.
+These are basic commands you need to know. Among them, cd can help you change the directory you are working on. pwd command can show the current working directory on your commputer. ls can show all items in a folder. cp can copy the file or directory you typed. And cat can concat the file content and print them in the command line. If you type one file directory, it will print it directly as you can see in the result of the last command.
 
 If you want, you can try some your own commands to practice!
 
->Thre are also commands that cause an error. For example, when you try to change the working directory to a non-exist location. Say cd /home/linux/ieng6/cse100 (assume you don't have this folder), you will see the error message. 
+>Thre are also commands that cause an error. For example, when you try to change the working directory to a non-exist location. Say `cd /home/linux/ieng6/cse100` (assume you don't have this folder), you will see the error message. 
 You can also try more to see when other commands will show an error, too.
+
+Below are some command result samples:
+
+<img width="628" alt="Screen Shot 2023-01-24 at 11 46 35 AM" src="https://user-images.githubusercontent.com/110661816/214393389-aff62e75-3d72-4a09-951d-6087b538f288.png">
 
 When you finish your exploration, you can log out from the server by
 * press Ctrl-D
