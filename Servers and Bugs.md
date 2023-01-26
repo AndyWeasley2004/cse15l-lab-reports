@@ -52,6 +52,7 @@ will be created when splitting with "=" as {s, Oceanview}. Therefore, parameter[
 
 Then, I continue use add-message command, and below is the second adding operation.
 
+
 <img width="496" alt="Screen Shot 2023-01-26 at 11 45 04 AM" src="https://user-images.githubusercontent.com/110661816/214934850-6a2e17dd-c5dd-40eb-82ef-b9954664f895.png">
 
 In this operation, main method and handleRequest are still called. Url input of handleRequest method is "http://localhost:8293/add-message?s=Canyon Vista", and the String array, parameters,
