@@ -1,4 +1,4 @@
-## Lab Report4--Challenge
+# Lab Report4--Challenge
 
 ### Step 1-log in
 
@@ -96,5 +96,11 @@ Result:
 ### Step 6-Commit and Push
 
 Commands Used:
+```
+git add L<tab><enter>
+git commit -m "Find a Bug"
+git push
+```
+(I have to type in username and Personal Access Token due to the version of my VS Code)
 
-![image](https://user-images.githubusercontent.com/110661816/221072234-623f925f-2077-4810-9603-1f3cc322d9ce.png)
+<img width="509" alt="Screenshot 2023-02-23 at 8 08 03 PM" src="https://user-images.githubusercontent.com/110661816/221089543-69d51640-593e-40a3-a3a3-b5978e3f41ae.png">
