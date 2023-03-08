@@ -68,8 +68,9 @@ Press: <enter> (Run)
 Pressing: <Ctrl+W> (Search in the nano editor)
 type：“1” (Since we want to reach "index1" and edit the "1")
 Press:<enter> (search the first "1")
-Repeat <Ctrl+W>+<1>+<enter> (search for the next "1") until 
+Repeat <Ctrl+W><enter> (search for the next "1") until 
         we reach the "index1" in the line sixth row from the bottom
+Press: <left arrow> (move one forward to delete current character)
 Press: <backspace> to delete "1"
 Press: <2> to complete the correct variable name, "index2"
 Press: <Ctrl+O> (save the edition we made and exit the editing mode)
