@@ -4,9 +4,9 @@
 
 Command Used:
 ```
-Keys pressed: <Ctrl+r>
-typed: "ss" 
-Keys pressed: <enter>
+Keys pressed: <Ctrl+r> (Ctrl+R can search commands in my command history)
+typed: "ss" (The key word for ssh log in command is ss)
+Keys pressed: <enter> (Run the command)
 ```
 Before press `<enter>`:
 
@@ -20,9 +20,9 @@ After press `<enter>`:
 
 Command Used:
 ```
-Keys pressed: <Ctrl+r>
-typed: "clo"
-Keys pressed: <enter>
+Keys pressed: <Ctrl+r> (Ctrl+R can search commands in my command history)
+typed: "clo" (When we search "clo", we can get git clone command)
+Keys pressed: <enter> (Run the command)
 ```
 
 Before press `<enter>`:
@@ -38,12 +38,13 @@ After press `<enter>`:
 Command Used:
 ```
 cd lab7
-Keys pressed: <Ctrl+r>
-typed: "javac"
-Keys pressed: <enter>
-Keys pressed: <Ctrl+r>
-typed: "ru"
-Keys pressed: <enter>
+Keys pressed: <Ctrl+r> (Ctrl+R can search commands in my command history)
+typed: "javac" (When I search "javac", I can get the command that compile the tester)
+Keys pressed: <enter> (Run the command)
+Keys pressed: <Ctrl+r> (Search again)
+typed: "ru" (There are so many java commands, so I tries to search "runner" in tester,
+        and when I typed "ru", I get the right command)
+Keys pressed: <enter> (Run)
 ```
 Compile Input:
 
@@ -61,13 +62,19 @@ Result:
 
 Commands Used:
 ```
-nano L<Tab>
+nano L<Tab> (autocomplete the file name)
 type: "java" (It only complete ListExample.)
-Press: <enter>
-Keep Pressing: <down> until reaching the 41st line
-Pressing: <right><right><right><right><right><right><right><right><right><right><right><right><backspace>
-type：“2”
-Pressing: <Ctril+O><enter><Ctrl+X>
+Press: <enter> (Run)
+Pressing: <Ctrl+W> (Search in the nano editor)
+type：“1” (Since we want to reach "index1" and edit the "1")
+Press:<enter> (search the first "1")
+Repeat <Ctrl+W>+<1>+<enter> (search for the next "1") until 
+        we reach the "index1" in the line sixth row from the bottom
+Press: <backspace> to delete "1"
+Press: <2> to complete the correct variable name, "index2"
+Press: <Ctrl+O> (save the edition we made and exit the editing mode)
+Press: <enter> (Run the <Ctrl+O> command)
+Press: <Ctrl+X> (exit nano editor)
 ```
 The result is like this:
 
@@ -81,12 +88,13 @@ After we exit the editing:
 
 Commands Used:
 ```
-Keys pressed: <Ctrl+r>
-typed: "javac"
-Keys pressed: <enter>
-Keys pressed: <Ctrl+r>
-typed: "ru"
-Keys pressed: <enter>
+Keys pressed: <Ctrl+r> (Ctrl+R can search commands in my command history)
+typed: "javac" (When I search "javac", I can get the command that compile the tester)
+Keys pressed: <enter> (run the command)
+Keys pressed: <Ctrl+r> (Ctrl+R can search commands in my command history)
+typed: "ru" (There are so many java commands, so I tries to search "runner" in tester,
+        and when I typed "ru", I get the right command)
+Keys pressed: <enter> (Run the command)
 ```
 
 Result:
@@ -97,8 +105,8 @@ Result:
 
 Commands Used:
 ```
-git add L<tab><enter>
-git commit -m "Find a Bug"
+git add L<tab><enter> (tab helps us autocomplete the file name, and enter run the completed command)
+git commit -m "Find a Bug" (Commit our edited version)
 git push
 ```
 (I have to type in username and Personal Access Token due to the version of my VS Code)
