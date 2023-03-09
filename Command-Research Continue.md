@@ -15,5 +15,11 @@ Result:
 If we don't use -n option, it would be like:
       Java is interpreted as object-oriented language
       AndyWeasleydeMacBook-Pro:VS Code yaomingyang$ 
+```
+
+Example2:
+```
+echo -n "Hello World"
 
 ```
+
