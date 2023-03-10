@@ -86,7 +86,7 @@ Result:
       (Remaining is my laptop info, and the rest of line
       is omitted)
 If we don't use -e option, the result would be like:
-      Hello World
+      Hello\cWorld
 ```
 
 ## Option3: -E
