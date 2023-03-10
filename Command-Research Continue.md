@@ -12,7 +12,7 @@ Example1:
 Command:
       echo -n "Java is"; echo "interpreted as object-oriented language"
 Result:
-      Java isinterpreted as object-oriented language 
+      Java is interpreted as object-oriented language 
       (two echo commands should print in two lines, but one with -n)
 If we don't use -n option, it would be like:
       Java is
@@ -113,5 +113,3 @@ Result:
 ```
 
 Generally, echo command only has above three main options, and the introductions above, in my opinion, includes most information about echo.
-
-
